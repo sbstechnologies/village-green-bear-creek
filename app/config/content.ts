@@ -105,6 +105,7 @@ export const images = {
   property_alt27: "24-hour fitness center at Village Green of Bear Creek",
 
   property_alt28: "24-hour fitness center at Village Green of Bear Creek",
+
   property_alt29: "24-hour fitness center at Village Green of Bear Creek",
 
   gallery1: "/images/gallery/1.webp",
