@@ -913,7 +913,6 @@ export const homePageConfig = {
 
   nearbyPlaces: [
     // Parks & Recreation
-    "Villages of Bear Creek Park",
     "Bear Creek Golf Club",
     "Glade Parks Town Center",
 
@@ -939,11 +938,6 @@ export const homePageConfig = {
     "McCormick Park",
     "CentrePort Business Park",
 
-    // Community
-    "Village Green of Bear Creek",
-
-    // Pet Friendly
-    "Pet Friendly with Bark Park",
   ],
   locationAreas: ["Euless", "Bear Creek Area", "DFW Area"],
   residentVoices: [
