@@ -811,16 +811,16 @@ export default function Floor() {
           <p className="mt-[28px] max-w-[1920px] font-[Plus_Jakarta_Sans] text-[18px] leading-[1.72] tracking-[-0.02em] text-[#b7bfd0] md:text-[20px]">
             Ten thoughtfully designed 1 and 2-bedroom layouts - from efficient
             one-bedroom residences with sunrooms to expansive two-bedroom
-            apartment homes with private patios
+            apartment homes with private patios.
           </p>
 
           {/* Stats */}
           <div className="mt-[58px] grid grid-cols-2 gap-x-[52px] gap-y-8 md:grid-cols-4">
             {[
               [String(planCount), "FLOOR PLANS"],
-              [String(oneBedroomCount + twoBedroomCount), "UNIT AVAILABLE"],
+              [String(oneBedroomCount + twoBedroomCount), "UNITS AVAILABLE"],
               ["597 - 1,102", "Sq Ft Range"],
-              ["$999", "STARTING FROM"],
+              ["$ 999", "STARTING FROM"],
             ].map(([value, label]) => (
               <div key={label}>
                 <h2 className="font-[Instrument_Serif] text-[34px] leading-none tracking-[-0.05em] text-white">

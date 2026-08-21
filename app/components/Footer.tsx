@@ -46,8 +46,8 @@ export default function Footer() {
 
               {/* DESCRIPTION */}
               <p className="text-[15px] leading-[1.9] text-[#8e99ad] mb-8 font-[Plus_Jakarta_Sans]">
-                Affordable, safe, and clean living at the intersection of
-                comfort and community — in the heart of Sherman, TX.
+                Thoughtfully designed apartment homes and lush green amenity
+                spaces crafted for comfortable, connected living in Euless, TX.
               </p>
 
               {/* CONTACT */}
@@ -80,6 +80,16 @@ export default function Footer() {
                     className="hover:text-white transition break-all  hover:translate-x-0.5"
                   >
                     {siteConfig.email}
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Mail size={17} className="text-[#76a1ff] shrink-0" />
+
+                  <a
+                    href={`mailto:${siteConfig.propertyManagerEmail}`}
+                    className="hover:text-white transition break-all  hover:translate-x-0.5"
+                  >
+                    {siteConfig.propertyManagerEmail}
                   </a>
                 </div>
 

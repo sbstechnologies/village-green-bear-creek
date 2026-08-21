@@ -88,6 +88,12 @@ export default function Gallery() {
         gallery.filter((item) => item.category === "Amenities").length,
       ),
     },
+    {
+      label: "Neighborhood",
+      count: String(
+        gallery.filter((item) => item.category === "Neighborhood").length,
+      ),
+    },
   ];
 
   const closeModal = () => setCurrentIndex(null);
@@ -147,8 +153,9 @@ export default function Gallery() {
             rustic-yet-refined interiors to our luxury amenity spaces and
             vibrant surrounding Fossil Creek neighborhood.
           </p>
-          <p className="mt-8 text-[#c7c3bd] max-w-xl text-sm md:text-base leading-relaxed">
-            27 PHOTOS ACROSS 4 CATEGORIES
+          <p className="mt-8 text-[#c7c3c0] max-w-xl text-sm md:text-base leading-relaxed">
+            {gallery.length} PHOTOS ACROSS{" "}
+            {new Set(gallery.map(({ category }) => category)).size} CATEGORIES
           </p>
         </div>
       </section>
@@ -156,30 +163,35 @@ export default function Gallery() {
       {/* FILTER BAR */}
       <div className="bg-white border-b border-[#e5e1d8] px-6 xs:px-6 sm:px-6 md:px-20 lg:px-40 xl:px-40 xxl:px-80 mx-auto py-4 font-[Plus_Jakarta_Sans]">
         <div className="max-w-[1920px] mx-auto flex gap-3 overflow-x-auto">
-          {filters.map((item) => (
-            <button
-              key={item.label}
-              onClick={() => setActiveFilter(item.label)}
-              className={`shrink-0 rounded-full border px-6 py-3 text-sm font-semibold transition ${
-                activeFilter === item.label
-                  ? "bg-[#1e3872] text-white border-[#1e3872]"
-                  : "bg-white text-[#4d5552] border-[#d4d9e2] hover:bg-[#f5f2ee]"
-              }`}
-            >
-              {item.label}
-              {item.count && (
+          {filters.map(({ label }) => {
+            const count =
+              label === "All"
+                ? gallery.length
+                : gallery.filter(({ category }) => category === label).length;
+
+            return (
+              <button
+                key={label}
+                type="button"
+                onClick={() => setActiveFilter(label)}
+                className={`shrink-0 rounded-full border px-6 py-3 text-sm font-semibold transition ${
+                  activeFilter === label
+                    ? "bg-[#1e3872] text-white border-[#1e3872]"
+                    : "bg-white text-[#4d5552] border-[#d4d9e2] hover:bg-[#f5f2ee]"
+                }`}
+              >
+                {label}
+
                 <span
                   className={`ml-2 text-xs ${
-                    activeFilter === item.label
-                      ? "text-white/75"
-                      : "text-[#9aa3af]"
+                    activeFilter === label ? "text-white/75" : "text-[#9aa3af]"
                   }`}
                 >
-                  {item.count}
+                  {count}
                 </span>
-              )}
-            </button>
-          ))}
+              </button>
+            );
+          })}
         </div>
       </div>
 

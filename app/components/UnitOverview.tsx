@@ -115,9 +115,9 @@ export default function UnitOverview({
   const amenityPhotos = useMemo(
     () => ({
       Pool: images.gallery36,
-      Parking: images.gallery38,
-      "Dog Park": images.gallery36,
-      Gym: images.gallery38,
+      Parking: images.gallery37,
+      "Dog Park": images.gallery38,
+      Gym: images.gallery30,
     }),
     [images],
   );

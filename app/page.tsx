@@ -504,29 +504,31 @@ export default function Home() {
               })}
             </div>
 
-            {/* Nearby */}
-            <div className="pt-4 border-t border-[#e3dfd8]   py-4">
+            {/* Nearby Employers & Schools */}
+            <div className="pt-4 pb-4 border-t border-[#e3dfd8]">
               <p className="text-xs font-bold uppercase text-[#5a6260] mb-3 tracking-[1.5px]">
                 Nearby Employers & Schools
               </p>
 
               <div className="flex flex-wrap gap-2">
-                {homePageConfig.nearbyPlaces.map((item) => (
+                {(homePageConfig.nearbyPlaces ?? []).map((item, index) => (
                   <span
-                    key={item}
-                    className="text-[11px] sm:text-[12px] font-semibold px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-[#e8ecf4] text-[#1e3872]"
+                    key={`${item}-${index}`}
+                    className="inline-flex items-center text-[11px] sm:text-[12px] font-semibold px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-[#e8ecf4] text-[#1e3872] whitespace-nowrap"
                   >
                     {item}
                   </span>
                 ))}
 
-                <span className="font-[Plus_Jakarta_Sans] inline-flex items-center gap-2 text-xs font-bold bg-[#fdf3e7] text-[#d9871e] px-4 py-2.5 rounded-full border border-[#e09428]/15">
+                {/* Pet Friendly */}
+                <span className="font-[Plus_Jakarta_Sans] inline-flex items-center gap-2 text-xs font-bold bg-[#fdf3e7] text-[#d9871e] px-4 py-2.5 rounded-full border border-[#e09428]/15 whitespace-nowrap">
                   <svg
                     className="w-3.5 h-3.5 shrink-0"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                     strokeWidth="2.5"
+                    aria-hidden="true"
                   >
                     <circle cx="11" cy="4" r="2" />
                     <circle cx="18" cy="8" r="2" />
@@ -537,7 +539,7 @@ export default function Home() {
                       d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"
                     />
                   </svg>
-                  Pet friendly — cats &amp; dogs welcome
+                  Pet Friendly with Bark Park
                 </span>
               </div>
             </div>
@@ -1067,7 +1069,7 @@ export default function Home() {
 
           <p className="font-[Plus_Jakarta_Sans] text-[14px] sm:text-[16px] leading-[1.65] text-[rgba(245,242,237,0.55)] mb-8 sm:mb-11 max-w-[480px] mx-auto">
             Start your application online or schedule a private tour with our
-            leasing team &mdash; we're available 7 days a week.
+            leasing team today.
           </p>
 
           {/* CTA BUTTONS — stack on mobile */}
