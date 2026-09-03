@@ -111,7 +111,7 @@ export async function POST(req: Request) {
       "info@livenjoymgt.com",
     ];
     if (resident === "Future Resident") {
-      toRecipients.push("sbstechnololgies.in@gmail.com");
+      toRecipients.push("village-green@rentbamboo.ai");
     }
 
     const ccRecipients: string[] = [];
@@ -409,21 +409,21 @@ export async function POST(req: Request) {
     </div>
 
     <div style="margin-top:8px;">
-      6700 Sandshell Blvd,
-      Fort Worth, TX 76137
+      1800 Fuller Wiser Rd,
+      Euless, TX 76039
     </div>
 
     <div style="margin-top:6px;">
-      📞 (817) 577-8666
+      📞 (817) 267-1551
     </div>
 
     <div style="margin-top:6px;">
-      ✉️ wstmanager@livenjoymgt.com
+      ✉️ VGLeasing@Livenjoymgt.com
     </div>
 
     <div style="margin-top:15px;">
       This email was automatically generated
-      from the Western Station website contact form.
+      from the Village Green of Bear Creek website contact form.
     </div>
 
     <div style="margin-top:10px;">

@@ -1,3 +1,4 @@
+"use client";
 import { siteConfig, footerLocation } from "@/app/config/content";
 import { Home, MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
 
@@ -248,7 +249,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        {process.env.NODE_ENV === "production" && <DisableInspect />}
       </section>
       <TourScheduler
         open={showTourScheduler}
