@@ -418,7 +418,7 @@ export async function POST(req: Request) {
     </div>
 
     <div style="margin-top:6px;">
-      ✉️ VGLeasing@Livenjoymgt.com
+      ✉️ vgmanager@livenjoymgt.com
     </div>
 
     <div style="margin-top:15px;">

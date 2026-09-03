@@ -533,28 +533,17 @@ export const tourSlots = [
 
 export const footerLocation = [
   {
-    label: "Little Bear Creek Trails",
-    distance: "Nearby",
+    label: "Villages of Bear Creek Park",
+    distance: "1.1 mi",
   },
   {
-    label: "Villages of Bear Creek",
-    distance: "Nearby",
+    label: "Glade Parks Town Center",
+    distance: "2.8 mi",
   },
-  {
-    label: "The Preserve at McCormick Park",
-    distance: "Nearby",
-  },
-  {
-    label: "Trailwood Park",
-    distance: "Nearby",
-  },
-  {
-    label: "Bob Eden Park",
-    distance: "Nearby",
-  },
+
   {
     label: "DFW International Airport",
-    distance: "Nearby",
+    distance: "4.5 mi",
   },
 ];
 
@@ -937,7 +926,6 @@ export const homePageConfig = {
     "Texas Health HEB Hospital",
     "McCormick Park",
     "CentrePort Business Park",
-
   ],
   locationAreas: ["Euless", "Bear Creek Area", "DFW Area"],
   residentVoices: [
