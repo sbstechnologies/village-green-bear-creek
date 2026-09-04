@@ -306,7 +306,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="md:flex md:items-center">
-              <p className="font-[Plus_Jakarta_Sans] text-[15px] sm:text-[16px] md:text-[19px] leading-[1.75] text-[#9faac0] max-w-[680px]">
+              <p className="font-[Plus_Jakarta_Sans] text-[15px] sm:text-[16px] md:text-[19px] leading-[1.75] text-[#9faac0] max-w-xxl">
                 Our curated collection of amenities ensures that every day at
                 Village Green of Bear Creek feels effortless. Unwind by our
                 resort style pools, stay active in the 24-hour fitness center,
