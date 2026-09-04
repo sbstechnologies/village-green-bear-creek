@@ -409,7 +409,7 @@ export async function POST(req: Request) {
     </div>
 
     <div style="margin-top:8px;">
-      1800 Fuller Wiser Rd,
+      1800 Fuller Wiser Rd,</br>
       Euless, TX 76039
     </div>
 
