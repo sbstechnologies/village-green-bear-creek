@@ -1,3 +1,87 @@
+// ======================================================
+// SITE CONFIG
+// ======================================================
+
+export const siteConfig = {
+  name: "Village Green of Bear Creek",
+  shortName: "Village Green",
+
+  address: "1800 Fuller Wiser Rd, Euless, TX 76039",
+
+  phone: "(817) 267-1551",
+  tel: "tel:+18172671551",
+
+  email: "VGLeasing@Livenjoymgt.com",
+  propertyManagerEmail: "VGManager@Livenjoymgt.com",
+
+  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
+  hours1: "Sat: 10:00 AM – 4:00 PM",
+
+  website: "https://www.villagegreenofbearcreekapts.com",
+
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/VGA?a=1588",
+};
+
+export const lookLeaseSpecial = {
+  id: "look",
+  badge: "LOOK & LEASE SPECIAL",
+  text: "$300 Off All Floor Plans + $99 App & Admin Fee. Move in by September 30th !",
+};
+
+export const floorPlansSpecial = {
+  id: "floor-plans-special",
+  badge: "LOOK & LEASE SPECIAL",
+  headline: "Special Promotion - Huge Specials",
+  badges: ["$300 Off All 1BR & 2BR", "$99 App & Admin Fee"],
+  phone: "(817) 267-1551",
+  tel: "tel:+18172671551",
+};
+
+export const lookLeaseOffer = {
+  id: "look-lease-offer",
+  tagline: "LIMITED TIME OFFER",
+  title: "Look & Lease Special",
+  subtext:
+    "Save $300 on all 1- and 2-bedroom floor plans. $99 application and administrative fee.",
+  highlight: " Must move in by September 30, 2026 !",
+  buttonText: "Call Now: (817) 267-1551",
+  buttonHref: "tel:+18172671551",
+};
+
+// ======================================================
+// PROMOTION
+// ======================================================
+
+export const PromoCardWidgetConfig = {
+  label: "LIMITED TIME",
+  title: "Special Promotion",
+
+  cards: [
+    {
+      title: "Huge Leasing Specials",
+      text: "Save ",
+      highlight:
+        "$300 off all 1- and 2-bedroom floor plans with reduced $99 fees.",
+      suffix: "",
+      theme: "orange",
+    },
+    {
+      title: "Contact Us Today",
+      text: "Call us right now for details.",
+      highlight: "Must move in by September 30, 2026.",
+      suffix: "Restrictions apply.",
+      theme: "blue",
+    },
+  ],
+
+  buttonText: "Apply Now",
+
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/VGA?a=1588",
+
+  phone: "Call us: (817) 267-1551",
+  phoneLink: "tel:+18172671551",
+};
+
 export const images = {
   // ==============================
   // PROPERTY / HOME
@@ -418,28 +502,6 @@ export const images = {
 };
 
 // ======================================================
-// SITE CONFIG
-// ======================================================
-
-export const siteConfig = {
-  name: "Village Green of Bear Creek",
-  shortName: "Village Green",
-
-  address: "1800 Fuller Wiser Rd, Euless, TX 76039",
-
-  phone: "(817) 267-1551",
-  tel: "tel:+18172671551",
-
-  email: "VGLeasing@Livenjoymgt.com",
-  propertyManagerEmail: "VGManager@Livenjoymgt.com",
-
-  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
-  hours1: "Sat: 10:00 AM – 4:00 PM",
-
-  website: "https://www.villagegreenofbearcreekapts.com",
-};
-
-// ======================================================
 // UNITS
 // ======================================================
 
@@ -546,16 +608,6 @@ export const footerLocation = [
     distance: "4.5 mi",
   },
 ];
-
-// ======================================================
-// LEASE SPECIAL
-// ======================================================
-
-export const lookLeaseSpecial = {
-  id: "look",
-  badge: "LOOK & LEASE SPECIAL",
-  text: "Huge Leasing Specials! Act fast for our best rates!",
-};
 
 // ======================================================
 // HEADER
@@ -719,36 +771,6 @@ export const leasePortalConfig = {
 
   availabilityText:
     "Prices and availability subject to change · Pets welcome · Call (817) 267-1551",
-};
-
-// ======================================================
-// PROMOTION
-// ======================================================
-
-export const PromoCardWidgetConfig = {
-  label: "Limited Time",
-  title: "Special Promotion",
-
-  cards: [
-    {
-      title: "Huge Leasing Specials",
-      text: "Act fast to lock in our",
-      highlight: "best rates",
-      suffix: "limited availability remaining.",
-      theme: "orange",
-    },
-    {
-      title: "Contact Us Today",
-      text: "",
-      highlight: "Call us right now",
-      suffix: " for full details on current offers. Restrictions apply",
-      theme: "blue",
-    },
-  ],
-
-  buttonText: "Apply Now",
-
-  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/VGA?a=1588",
 };
 
 // ======================================================

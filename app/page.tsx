@@ -1075,9 +1075,10 @@ export default function Home() {
           {/* CTA BUTTONS — stack on mobile */}
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-3.5 flex-wrap mb-10 sm:mb-12 px-4 sm:px-0">
             <a
-              href="https://livenjoy.myresman.com/Portal/Applicants/New/POTS?a=1588"
+              href={siteConfig.applyLink}
               target="_blank"
-              className="flex items-center justify-center gap-2 px-8 sm:px-9 py-4 sm:py-[15px] rounded-full bg-[#1e3872] text-[#f5f2ed] font-[Plus_Jakarta_Sans] text-[14px] sm:text-[15px] font-bold cursor-pointer shadow-[rgba(30,56,114,0.5)_0px_4px_24px] tracking-[0.01em] border-none outline-none hover:opacity-95 transition-opacity"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 rounded-full border-none bg-[#1e3872] px-8 py-4 font-[Plus_Jakarta_Sans] text-[14px] font-bold tracking-[0.01em] text-[#f5f2ed] shadow-[rgba(30,56,114,0.5)_0px_4px_24px] outline-none transition-opacity hover:opacity-95 sm:px-9 sm:py-[15px] sm:text-[15px]"
             >
               Apply Now
               <svg
