@@ -986,7 +986,7 @@ export const homePageConfig = {
       category: "Local Eats",
       time: "4 min",
       author: "Village Green Team",
-      date: "Aug 20",
+      date: "",
       title: "Must-Try Dining & Local Flavors in Euless & Bear Creek",
       desc: "From savory Texas smoked barbecue to authentic global kitchens along Fuller Wiser Rd and Highway 121, explore the standout culinary spots right outside your door.",
     },
@@ -997,7 +997,7 @@ export const homePageConfig = {
       category: "Outdoors",
       time: "6 min",
       author: "Village Green Team",
-      date: "Aug 15",
+      date: "",
       title: "Exploring Bear Creek Greenbelt & Local Euless Parks",
       desc: "Plan your morning run, dog walks, or sunny weekend picnic along the scenic Bear Creek trails and surrounding...",
     },
@@ -1008,7 +1008,7 @@ export const homePageConfig = {
       category: "Community",
       time: "3 min",
       author: "Village Green Team",
-      date: "Aug 10",
+      date: "",
       title: "Weekend Guide to Glade Parks & DFW Mid-Cities",
       desc: "Your ultimate guide to premier retail, outdoor shopping, casual dining, and entertainment just a short drive up 121.",
     },
@@ -1019,7 +1019,7 @@ export const homePageConfig = {
       category: "Local Life",
       time: "5 min",
       author: "Village Green Team",
-      date: "Aug 5",
+      date: "",
       title: "An Insider’s Look at Life Around Bear Creek",
       desc: "Discover how our quiet, tree lined neighborhood offers the perfect balance of suburban retreat and easy connect...",
     },
@@ -1030,7 +1030,7 @@ export const homePageConfig = {
       category: "Culture",
       time: "7 min",
       author: "Village Green Team",
-      date: "Jul 30",
+      date: "",
       title: "Coffee Shops & Casual Bites Near Fuller Wiser",
       desc: "We break down neighborhood favorites for weekend brunch, cozy specialty coffee shops, and quick...",
     },
@@ -1041,7 +1041,7 @@ export const homePageConfig = {
       category: "City Life",
       time: "4 min",
       author: "Village Green Team",
-      date: "Jul 25",
+      date: "",
       title: "Weekend Getaways: Lake Grapevine to DFW Nature Hubs",
       desc: "Spend an afternoon on the water or hike lakeside nature preserves with a quick and easy trip from Euless.",
     },
@@ -1797,7 +1797,7 @@ export const posts: Post[] = [
     readTime: "6 min",
     initials: "VG",
     author: "Village Green Team",
-    date: "Aug 15, 2026",
+    date: "",
 
     title: "Exploring Bear Creek Greenbelt & Local Euless Parks",
 
@@ -1822,7 +1822,7 @@ export const posts: Post[] = [
     readTime: "3 min",
     initials: "VG",
     author: "Village Green Team",
-    date: "Aug 10, 2026",
+    date: "",
 
     title: "Weekend Guide to Glade Parks & DFW Mid-Cities",
 
@@ -1847,7 +1847,7 @@ export const posts: Post[] = [
     readTime: "5 min",
     initials: "VG",
     author: "Village Green Team",
-    date: "Aug 5, 2026",
+    date: "",
 
     title: "An Insider’s Look at Life Around Bear Creek",
 
@@ -1872,7 +1872,7 @@ export const posts: Post[] = [
     readTime: "7 min",
     initials: "VG",
     author: "Village Green Team",
-    date: "Jul 30, 2026",
+    date: "",
 
     title: "Coffee Shops & Casual Bites Near Fuller Wiser",
 
@@ -1897,7 +1897,7 @@ export const posts: Post[] = [
     readTime: "4 min",
     initials: "VG",
     author: "Village Green Team",
-    date: "Jul 25, 2026",
+    date: "",
 
     title: "Weekend Getaways: Lake Grapevine to DFW Nature Hubs",
 
@@ -1926,7 +1926,7 @@ export const featuredPost: Post = {
   readTime: "5 min",
   initials: "VG",
   author: "Village Green Team",
-  date: "Aug 20, 2026",
+  date: "",
 
   title: "Discover Local Life Around Village Green of Bear Creek",
 
@@ -1962,7 +1962,7 @@ export const articles = [
     authorInitials: "VG",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
     authorName: "Village Green Team",
-    date: "Aug 20",
+    date: "",
     title: "Must-Try Dining & Local Flavors in Euless & Bear Creek",
     description:
       "From savory Texas smoked barbecue to authentic global kitchens along Fuller Wiser Rd and Highway 121, explore the standout culinary spots right outside your door.",
@@ -1977,7 +1977,7 @@ export const articles = [
     authorInitials: "VG",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
     authorName: "Village Green Team",
-    date: "Aug 15",
+    date: "",
     title: "Exploring Bear Creek Greenbelt & Local Euless Parks",
     description:
       "Plan your morning run, dog walks, or sunny weekend picnic along the scenic Bear Creek trails and surrounding parks.",
@@ -1992,7 +1992,7 @@ export const articles = [
     authorInitials: "VG",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
     authorName: "Village Green Team",
-    date: "Aug 10",
+    date: "",
     title: "Weekend Guide to Glade Parks & DFW Mid-Cities",
     description:
       "Your ultimate guide to premier retail, outdoor shopping, casual dining, and entertainment just a short drive up 121.",
@@ -2007,7 +2007,7 @@ export const articles = [
     authorInitials: "VG",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
     authorName: "Village Green Team",
-    date: "Aug 5",
+    date: "",
     title: "An Insider’s Look at Life Around Bear Creek",
     description:
       "Discover how our quiet, tree-lined neighborhood offers the perfect balance of suburban retreat and easy connections to Euless and the DFW area.",
@@ -2022,7 +2022,7 @@ export const articles = [
     authorInitials: "VG",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
     authorName: "Village Green Team",
-    date: "Jul 30",
+    date: "",
     title: "Coffee Shops & Casual Bites Near Fuller Wiser",
     description:
       "We break down neighborhood favorites for weekend brunch, cozy specialty coffee shops, and quick casual bites around Euless and Fuller Wiser.",
@@ -2037,7 +2037,7 @@ export const articles = [
     authorInitials: "VG",
     authorBg: "bg-[#5a3a7a]/10 text-[#5a3a7a]",
     authorName: "Village Green Team",
-    date: "Jul 25",
+    date: "",
     title: "Weekend Getaways: Lake Grapevine to DFW Nature Hubs",
     description:
       "Spend an afternoon on the water or explore lakeside nature preserves and outdoor destinations with a convenient trip from Euless.",
