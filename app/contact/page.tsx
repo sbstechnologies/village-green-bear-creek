@@ -28,17 +28,16 @@ export default function Contact() {
             <span className="italic text-[#E39B2D]">Hear From You</span>
           </h1>
 
-          <p className="mt-8 max-w-2xl font-[Plus_Jakarta_Sans] text-base leading-relaxed text-[#bfc6d6] md:text-lg">
-            Have questions about our floor plans, amenities, or current lease
-            specials?
+          <p className="mt-8 max-w-3xl font-[Plus_Jakarta_Sans] text-base leading-relaxed text-[#bfc6d6] md:text-lg">
+            Have questions about our floor plans, amenities, or current look &
+            lease specials?
             <br />
             Our dedicated leasing team is here to help you find your perfect new
-            home in Euless Worth.
+            home in Euless at Village Green of Bear Creek.
           </p>
         </div>
       </section>
 
-      {/* ===== CONTACT DETAILS + FORM ===== */}
       <section className="bg-[#f5f2ed] px-6 xs:px-6 sm:px-6 md:px-20 lg:px-40 xl:px-40 xxl:px-80 mx-auto py-12 font-[Plus_Jakarta_Sans] md:px-10 lg:px-24 md:py-16">
         <div className="mx-auto grid max-w-[1920px] grid-cols-1 gap-10 xl:grid-cols-[0.9fr_1.25fr] xl:gap-12">
           {/* LEFT */}

@@ -23,6 +23,7 @@ type PlanFeatures = {
 };
 
 type UnitImages = {
+  amenities7: any;
   [key: `gallery${number}`]: string;
   [key: `floor${number}`]: string;
   [key: `home${number}`]: string;
@@ -116,7 +117,7 @@ export default function UnitOverview({
   const amenityPhotos = useMemo(
     () => ({
       Pool: images.gallery36,
-      Parking: images.gallery37,
+      Parking: images.amenities7,
       "Dog Park": images.gallery38,
       Gym: images.gallery30,
     }),

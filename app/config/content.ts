@@ -25,7 +25,7 @@ export const siteConfig = {
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "$300 Off All Floor Plans + $99 App & Admin Fee. Move in by September 30th !",
+  text: "$300 Off All Floor Plans + $99 Application & Admin Fee. Move in by September 30th!",
 };
 
 export const floorPlansSpecial = {
@@ -42,8 +42,8 @@ export const lookLeaseOffer = {
   tagline: "LIMITED TIME OFFER",
   title: "Look & Lease Special",
   subtext:
-    "Save $300 on all 1- and 2-bedroom floor plans. $99 application and administrative fee.",
-  highlight: " Must move in by September 30, 2026 !",
+    "Save $300 on all 1 and 2 bedroom floor plans with reduced $99 fees.",
+  highlight: " Must move in by September 30, 2026!",
   buttonText: "Call Now: (817) 267-1551",
   buttonHref: "tel:+18172671551",
 };
@@ -61,7 +61,7 @@ export const PromoCardWidgetConfig = {
       title: "Huge Leasing Specials",
       text: "Save ",
       highlight:
-        "$300 off all 1- and 2-bedroom floor plans with reduced $99 fees.",
+        "$300 off all 1 and 2 bedroom floor plans with reduced $99 fees.",
       suffix: "",
       theme: "orange",
     },
@@ -195,36 +195,47 @@ export const images = {
   gallery1: "/images/gallery/1.webp",
   gallery2: "/images/gallery/2.webp",
   gallery3: "/images/gallery/3.webp",
+
   gallery4: "/images/gallery/4.webp",
   gallery5: "/images/gallery/5.webp",
   gallery6: "/images/gallery/6.webp",
+
   gallery7: "/images/gallery/7.webp",
   gallery8: "/images/gallery/8.webp",
   gallery9: "/images/gallery/9.webp",
+
   gallery10: "/images/gallery/10.webp",
   gallery11: "/images/gallery/11.webp",
   gallery12: "/images/gallery/12.webp",
+
   gallery13: "/images/gallery/13.webp",
   gallery14: "/images/gallery/14.webp",
   gallery15: "/images/gallery/15.webp",
+
   gallery16: "/images/gallery/16.webp",
   gallery17: "/images/gallery/17.webp",
   gallery18: "/images/gallery/18.webp",
+
   gallery19: "/images/gallery/19.webp",
   gallery20: "/images/gallery/20.webp",
   gallery21: "/images/gallery/21.webp",
+
   gallery22: "/images/gallery/22.webp",
   gallery23: "/images/gallery/23.webp",
   gallery24: "/images/gallery/24.webp",
+
   gallery25: "/images/gallery/25.webp",
   gallery26: "/images/gallery/26.webp",
   gallery27: "/images/gallery/27.webp",
+
   gallery28: "/images/gallery/28.webp",
   gallery29: "/images/gallery/29.webp",
   gallery30: "/images/gallery/30.webp",
+
   gallery31: "/images/gallery/31.webp",
   gallery32: "/images/gallery/32.webp",
   gallery33: "/images/gallery/33.webp",
+
   gallery34: "/images/gallery/34.webp",
   gallery35: "/images/gallery/35.webp",
   gallery36: "/images/gallery/36.webp",
@@ -406,6 +417,7 @@ export const images = {
   amenities4: "/images/features/4.webp",
   amenities5: "/images/features/5.webp",
   amenities6: "/images/features/6.webp",
+  amenities7: "/images/features/7.webp",
 
   amenities_alt1: "24-hour fitness center at Village Green of Bear Creek",
 
@@ -420,6 +432,8 @@ export const images = {
     "Dedicated pet-friendly Bark Park at Village Green of Bear Creek",
 
   amenities_alt6: "24/7 secure package lockers at Village Green of Bear Creek",
+
+  amenities_alt7: "Car parking at Village Green of Bear Creek",
 
   // ==============================
   // FLOOR PLAN IMAGES
@@ -852,7 +866,6 @@ export const homePageConfig = {
     "Sunrooms & Private Patios*",
     "Gated Community Access",
     "In-Unit Washer & Dryer*",
-    "24-Hour Emergency Maintenance",
   ],
 
   keyDestinations: [
@@ -923,31 +936,29 @@ export const homePageConfig = {
   ],
 
   nearbyPlaces: [
-    // Parks & Recreation
-    "Bear Creek Golf Club",
-    "Glade Parks Town Center",
+    // Education
+    "Hurst-Euless-Bedford (HEB) ISD",
+    "Bear Creek Elementary",
+    "Heritage High School",
 
     // Shopping & Retail
-    "Euless Town Center",
+    "Glade Parks",
     "Glade Parks Town Center",
+    "Euless Town Center",
+
+    // Parks & Recreation
+    "Bear Creek Golf Club",
+    "McCormick Park",
+
+    // Healthcare
+    "Texas Health HEB Hospital",
 
     // Transportation
     "DFW International Airport",
 
-    // Employment
-    "American Airlines HQ / Campus",
-
-    // Education
-    "Heritage Middle School (HEB ISD)",
-
-    // Nearby Employers & Schools
-    "Hurst-Euless-Bedford (HEB ISD)",
-    "Bear Creek Elementary",
-    "Heritage High School",
-    "Glade Parks",
-    "Texas Health HEB Hospital",
-    "McCormick Park",
+    // Employment & Business
     "CentrePort Business Park",
+    "American Airlines HQ / Campus",
   ],
   locationAreas: ["Euless", "Bear Creek Area", "DFW Area"],
   residentVoices: [
@@ -1168,8 +1179,8 @@ export const interiorPhotos = {
 
 export const amenityPhotos = {
   Pool: images.gallery36,
-  Parking: images.gallery38,
-  "Dog Park": images.gallery40,
+  Parking: images.amenities7,
+  "Dog Park": images.gallery38,
   Gym: images.gallery30,
 } as const;
 
