@@ -223,21 +223,34 @@ export default function Footer() {
               </h4>
 
               {/* MAP */}
-              <div className="rounded-[24px] overflow-hidden h-[220px] border border-white/10">
+              <div className="relative h-[220px] overflow-hidden rounded-[24px] border border-white/10">
                 <iframe
                   src={`https://www.google.com/maps?q=${encodeURIComponent(
                     siteConfig.address,
-                  )}&output=embed`}
+                  )}&z=16&output=embed`}
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   loading="lazy"
                   allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
-                  className="w-full h-full"
+                  className="h-full w-full"
+                  title={`Map - ${siteConfig.address}`}
                 />
-              </div>
 
+                {/* Red Center Marker */}
+                <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                  <div className="relative -mt-7">
+                    {/* Pin Head */}
+                    <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-red-600 shadow-[0_8px_25px_rgba(220,38,38,0.45)] ring-4 ring-white/90">
+                      <div className="h-4 w-4 rounded-full bg-white" />
+                    </div>
+
+                    {/* Pin Point */}
+                    <div className="absolute bottom-[-5px] left-1/2 h-5 w-5 -translate-x-1/2 rotate-45 bg-red-600" />
+                  </div>
+                </div>
+              </div>
               {/* DISTANCE */}
               <div className="mt-6 space-y-4 text-[15px] font-[Plus_Jakarta_Sans]">
                 {footerLocation.map((item) => (
