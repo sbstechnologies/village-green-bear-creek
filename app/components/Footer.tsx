@@ -4,7 +4,7 @@ import { Home, MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
 
 import Image from "next/image";
 import { headerConfig } from "@/app/config/content";
-import DisableInspect from "@/app/components/DisableInspect";
+
 import TourScheduler from "@/app/components/TourScheduler";
 import { useState } from "react";
 
@@ -225,31 +225,13 @@ export default function Footer() {
               {/* MAP */}
               <div className="relative h-[220px] overflow-hidden rounded-[24px] border border-white/10">
                 <iframe
-                  src={`https://www.google.com/maps?q=${encodeURIComponent(
-                    siteConfig.address,
-                  )}&z=16&output=embed`}
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.367353505629!2d-97.07355349999999!3d32.8619986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e80160b912c09%3A0x28df383aadcceecf!2sVillage%20Green%20of%20Bear%20Creek!5e0!3m2!1sen!2sin!4v1787215221969!5m2!1sen!2sin"
+                  title="Village Green of Bear Creek location map"
+                  className="h-full w-full border-0"
                   loading="lazy"
                   allowFullScreen
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="h-full w-full"
-                  title={`Map - ${siteConfig.address}`}
+                  referrerPolicy="strict-origin-when-cross-origin"
                 />
-
-                {/* Red Center Marker */}
-                <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-                  <div className="relative -mt-7">
-                    {/* Pin Head */}
-                    <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-red-600 shadow-[0_8px_25px_rgba(220,38,38,0.45)] ring-4 ring-white/90">
-                      <div className="h-4 w-4 rounded-full bg-white" />
-                    </div>
-
-                    {/* Pin Point */}
-                    <div className="absolute bottom-[-5px] left-1/2 h-5 w-5 -translate-x-1/2 rotate-45 bg-red-600" />
-                  </div>
-                </div>
               </div>
               {/* DISTANCE */}
               <div className="mt-6 space-y-4 text-[15px] font-[Plus_Jakarta_Sans]">
