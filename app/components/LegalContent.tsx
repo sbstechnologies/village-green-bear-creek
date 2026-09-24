@@ -281,10 +281,17 @@ export default function LegalContent() {
           Please send all requests regarding data access, correction, or
           deletion to{" "}
           <a
-            href="mailto:wstmanager@livenjoymgt.com"
+            href={`mailto:${siteConfig.propertyManagerEmail}`}
             className="font-semibold text-[#294B86] hover:underline"
           >
-            wstmanager@livenjoymgt.com
+            {siteConfig.propertyManagerEmail}
+          </a>{" "}
+          and{" "}
+          <a
+            href={`mailto:${siteConfig.email}`}
+            className="font-semibold text-[#294B86] hover:underline"
+          >
+            {siteConfig.email}
           </a>
           .
         </motion.p>
@@ -535,8 +542,8 @@ export default function LegalContent() {
         <motion.p className="font-[Plus_Jakarta_Sans] text-[18px] font-normal leading-[1.9] tracking-[0.01em] text-[#4B4B4B]">
           LiveNJoy Management is dedicated to providing a digital environment
           that is accessible to all individuals, including those with
-          disabilities. We actively design and maintain the Western Station
-          Apartment Homes website to align with the{" "}
+          disabilities. We actively design and maintain {siteConfig.name}{" "}
+          Apartment website to align with the{" "}
           <strong className="font-semibold text-[#232323]">
             Web Content Accessibility Guidelines (WCAG)
           </strong>{" "}
@@ -557,6 +564,13 @@ export default function LegalContent() {
             className="font-semibold text-[#294B86] hover:underline"
           >
             {siteConfig.propertyManagerEmail}
+          </a>{" "}
+          and{" "}
+          <a
+            href={`mailto:${siteConfig.email}`}
+            className="font-semibold text-[#294B86] hover:underline"
+          >
+            {siteConfig.email}
           </a>{" "}
           during regular business hours, and we will be happy to assist you.
         </motion.p>

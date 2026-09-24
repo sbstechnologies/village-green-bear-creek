@@ -149,9 +149,8 @@ export default function Gallery() {
           </h1>
 
           <p className="mt-8 text-[#c7c3bd] max-w-xl text-sm md:text-base leading-relaxed">
-            Explore our community — from beautifully appointed,
-            rustic-yet-refined interiors to our luxury amenity spaces and
-            vibrant surrounding Fossil Creek neighborhood.
+            Explore our community — from beautifully appointed, modern apartment
+            homes to our relaxing amenity spaces and scenic Euless neighborhood.
           </p>
           <p className="mt-8 text-[#c7c3c0] max-w-xl text-sm md:text-base leading-relaxed">
             {gallery.length} PHOTOS ACROSS{" "}
