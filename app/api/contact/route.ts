@@ -108,6 +108,7 @@ export async function POST(req: Request) {
     const toRecipients = [
       "VGLeasing@Livenjoymgt.com",
       "VGManager@Livenjoymgt.com",
+      "vgasstmanager@Livenjoymgt.com",
       "info@livenjoymgt.com",
     ];
     if (resident === "Future Resident") {
@@ -117,11 +118,7 @@ export async function POST(req: Request) {
     const ccRecipients: string[] = [];
 
     if (resident === "Current Resident") {
-      ccRecipients.push(
-        "daniel@livenjoymgt.com",
-        "admin@livenjoymgt.com",
-        "officeadmin@livenjoymgt.com",
-      );
+      ccRecipients.push("daniel@livenjoymgt.com", "admin@livenjoymgt.com");
     }
 
     // Verify SMTP connection
