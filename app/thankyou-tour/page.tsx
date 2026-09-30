@@ -119,21 +119,21 @@ export default function Contact() {
 
                     <a
                       href={`mailto:${siteConfig.email}`}
-                      className="mt-1 inline-block break-all text-[16px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]"
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]"
                     >
                       {siteConfig.email}
                     </a>
                     <br />
                     <a
                       href={`mailto:${siteConfig.propertyManagerEmail}`}
-                      className="mt-1 inline-block break-all text-[16px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
                       {siteConfig.propertyManagerEmail}
                     </a>
                     <br />
                     <a
                       href={`mailto:${siteConfig.leasingEmail}`}
-                      className="mt-1 inline-block break-all text-[16px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
+                      className="mt-1 inline-block break-all text-[14px] font-semibold text-[#163c84] transition-colors duration-300 hover:text-[#0f2f6b]  hover:translate-x-0.5"
                     >
                       {siteConfig.leasingEmail}
                     </a>
