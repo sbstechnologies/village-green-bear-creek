@@ -26,7 +26,7 @@ export const siteConfig = {
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "$300 Off All Floor Plans + $99 Application & Admin Fee. Move in by September 30th!",
+  text: "$300 Off All Floor Plans + $99 Application & Admin Fee. Move in by October 31, 2026!",
 };
 
 export const floorPlansSpecial = {
@@ -44,7 +44,7 @@ export const lookLeaseOffer = {
   title: "Look & Lease Special",
   subtext:
     "Save $300 on all 1 and 2 bedroom floor plans with reduced $99 fees.",
-  highlight: " Must move in by September 30, 2026!",
+  highlight: " Must move in by October 31, 2026!",
   buttonText: "Call Now: (817) 267-1551",
   buttonHref: "tel:+18172671551",
 };
@@ -69,7 +69,7 @@ export const PromoCardWidgetConfig = {
     {
       title: "Contact Us Today",
       text: "Call us right now for details.",
-      highlight: "Must move in by September 30, 2026.",
+      highlight: "Must move in by October 31, 2026.",
       suffix: "Restrictions apply.",
       theme: "blue",
     },
